@@ -1,0 +1,36 @@
+extra code:
+
+
+ <!-- <script>
+    var originalContent = document.getElementById('myTable').innerHTML;
+
+    function changeTableContent(option) {
+      var table = document.getElementById('myTable');
+      var content = '';
+
+      if (option === 'aboutme') {
+        content = '<tr><td>  <center> <font color="orange"> this is another test</font><br><br>test 1 <br><hr><br> Hello my name is Jason Ramsey. As of the creation of this website I am currently a plumber for a large plumbing company in central FL.  I will update soon.</td></tr>';
+      } else if (option === 'resume') {
+        content = '<tr><td> <a href="http://www.google.com">link test</a>  Im going to make one and put it here as well as a link to download a pdf file </td></tr>';
+
+      } else if (option === 'projects') {
+        content = '<tr><td>This is a list of the projects I am working on or have completed. <br><br> web address : This web site will be an ongoing project.  I am coding this by hand and utilizing AI to help generate some of the code so that I can learn more and show what I am learning.  This web site uses HTML, CSS, Javascript, and AI. <br><br><hr><br><br> <center><font color="red" size="16">more coming very soon</font></td></tr>';
+
+      } else if (option === 'contact') {
+        content = '<tr><td></td></tr>';
+
+      } 
+
+      table.innerHTML = content;
+    }
+
+    function resetTableContent() {
+      document.getElementById('myTable').innerHTML = originalContent;
+    }
+  </script> -->
+
+  <!-- <a href="#" onclick="changeTableContent('aboutme')">About Me</a>
+      <a href="#" onclick="changeTableContent('resume')"> Resume </a>
+      <a href="#" onclick="changeTableContent('projects')">Projects</a>
+      <a href="#" onclick="changeTableContent('contact')">Contact Me</a>
+      <a href="#" onclick="resetTableContent()">Home</a> -->

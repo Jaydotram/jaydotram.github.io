@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>::::Jason Ramsey::::</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<table class="logo">
+  <tr>
+    <td>  
+     <img src="JRlogo.png" class="logoimage">
+    
+    </td>
+  </tr>
+</table>
+
+
+<table class="links">
+  <tr>
+    <td>
+      <a href="#" onclick="changeIframeSrc('aboutme.html')">About Me</a>
+      <a href="#" onclick="changeIframeSrc('resume.html')">Resume</a>
+      <a href="#" onclick="changeIframeSrc('projects.html')">Projects</a>
+      <a href="#" onclick="changeIframeSrc('contact.html')">Contact</a>
+      <a href="#" onclick="changeIframeSrc('home.html')">Home</a>
+      
+    </td>
+  </tr>
+</table>
+<br>
+      
+ <table id="myTable" class="mainbody">
+  <tr>
+    <td>
+       <iframe id="contentFrame" src="home.html" class ="frame"></iframe>
+    </td>
+  </tr>      
+</table> 
+
+
+
+  <script>
+    function changeIframeSrc(src) {
+      document.getElementById('contentFrame').src = src;
+    }
+
+     
+    window.onload = function() {
+      changeIframeSrc('home.html'); 
+    };
+  </script>
+
+</body>
+</html>
