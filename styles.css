@@ -5,58 +5,55 @@ body {
 }
 
 .logo {
-  
   margin-left: auto;
   margin-right: auto;
-  
-  width: 565px;
-  
+  width: 100%; 
 }
 
 .container-table {
-   width: 800px;
-   
+  width: 820px;
    margin-left: auto;
    margin-right: auto;
 
 }
 
 .headshot {
-  border:2px solid;
-  border-color: orange;
-  width: 200px;
-  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
   margin-top:10px;
 }
 
+.headlogo {
+  width: 250px;
+  height: 270px;
+}
+
 .logoimage {
-  width: 100%;
-  height: 80%;
+  width: 560px;
+  height: 200px;
   
 }
 
 .links {
-  
   margin-left: auto;
   margin-right: auto;
-  width: 565px;
-  padding: 3px;
+  width: 100%;
+  padding: 2px;
   text-align: center;
- 
-  
-
 }
 
 .subbody {
  background-color:white;
- font-size:14px;
+ font-size: 16px;
 }
 
 .multiuse {
   
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
   height: 100%;
   padding: 5px;
   font-family: courier, monospace;
@@ -85,13 +82,13 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
-  width: 800px;
+  width: 830px;
   height: 64%;
 }
 
 
 .rounded-button {
-  font-size: 16;
+  font-size: 15px;
   display: inline-block;
   padding: 10px 20px; 
   border-radius: 20px; 
