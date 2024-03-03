@@ -67,18 +67,20 @@ h1 {
 }
 
 .frame { 
+  border: 2px solid darkorange;
   width: 100%;
   height: 100%;
   background-color:white;
-}
 
-.mainbody {
-  
   -moz-border-radius: 5px;
   border-radius: 5px;
   -moz-box-shadow: 5px 5px 5px black;
   -webkit-box-shadow: 5px 5px 5px black;
   box-shadow: 5px 5px 5px black;
+}
+
+.mainbody {
+  
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
@@ -87,11 +89,11 @@ h1 {
 }
 
 
-.rounded-button {
+.rounded-button {    
   font-size: 15px;
   display: inline-block;
   padding: 10px 20px; 
-  border-radius: 20px; 
+   
   background-color: #007bff;
   color: #fff; 
   text-decoration: none; 
